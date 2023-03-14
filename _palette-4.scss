@@ -1,0 +1,40 @@
+$primary-color: #FF6B6B;
+$secondary-color: #1A535C;
+$tertiary-color: #355070;
+$quaternary-color: #6B5B95;
+$success-color: #27AE60;
+$info-color: #2980B9;
+$warning-color: #F39C12;
+$danger-color: #D63031;
+$light-color: #F5F5F5;
+$dark-color: #2C3E50;
+$gray-color: #BDC3C7;
+$white-color: #FFFFFF;
+$black-color: #000000;
+
+$accent-1: #FFC300;
+$accent-2: #FF5733;
+$accent-3: #8E44AD;
+$accent-4: #2ECC71;
+$accent-5: #E74C3C;
+$accent-6: #34495E;
+
+$dark-primary-color: darken($primary-color, 10%);
+$dark-secondary-color: darken($secondary-color, 10%);
+$dark-tertiary-color: darken($tertiary-color, 10%);
+$dark-quaternary-color: darken($quaternary-color, 10%);
+$dark-success-color: darken($success-color, 10%);
+$dark-info-color: darken($info-color, 10%);
+$dark-warning-color: darken($warning-color, 10%);
+$dark-danger-color: darken($danger-color, 10%);
+$dark-gray-color: darken($gray-color, 10%);
+
+$light-primary-color: lighten($primary-color, 10%);
+$light-secondary-color: lighten($secondary-color, 10%);
+$light-tertiary-color: lighten($tertiary-color, 10%);
+$light-quaternary-color: lighten($quaternary-color, 10%);
+$light-success-color: lighten($success-color, 10%);
+$light-info-color: lighten($info-color, 10%);
+$light-warning-color: lighten($warning-color, 10%);
+$light-danger-color: lighten($danger-color, 10%);
+$light-gray-color: lighten($gray-color, 10%);
