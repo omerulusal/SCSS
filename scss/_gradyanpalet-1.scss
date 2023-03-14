@@ -1,0 +1,56 @@
+// Gradient colors
+$gradient1: linear-gradient(to right, #a18cd1, #fbc2eb);
+$gradient2: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+$gradient3: linear-gradient(to right, #ff9966, #ff5e62);
+$gradient4: linear-gradient(to right, #f12711, #f5af19);
+$gradient5: linear-gradient(to right, #f8c2c1, #4b6cb7);
+$gradient6: linear-gradient(to right, #00c6ff, #0072ff);
+$gradient7: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+$gradient8: linear-gradient(to right, #ff9a8b, #ff6a88);
+$gradient9: linear-gradient(to right, #ff7e5f, #feb47b);
+$gradient10: linear-gradient(to right, #1d976c, #93f9b9);
+$gradient11: linear-gradient(to right, #fa709a, #fee140);
+$gradient12: linear-gradient(to right, #16a085, #f4d03f);
+$gradient13: linear-gradient(to right, #c471ed, #f64f59);
+$gradient14: linear-gradient(to right, #4b6cb7, #182848);
+$gradient15: linear-gradient(to right, #ffa17f, #00223e);
+
+
+// Yazı Animasyonu
+@keyframes grdyazi {
+    0% {
+        background: $gradient1;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    25% {
+        background: $gradient2;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    50% {
+        background: $gradient3;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    75% {
+        background: $gradient4;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    100% {
+        background: $gradient5;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.yazi {
+    font-size: 48px;
+    font-weight: bold;
+    animation: grdyazi 5s ease-in-out infinite alternate;
+}
